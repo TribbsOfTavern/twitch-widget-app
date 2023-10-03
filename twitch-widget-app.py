@@ -151,7 +151,7 @@ def trayItemClicked(icon, query):
 #
 def app():
 # Load config file
-    settings = loadConfig("testconfig.json")
+    settings = loadConfig("config.json")
     proc_list = []
     ## Start tray menu
     sys_tray_img = Image.open("py-app-icon.png")
