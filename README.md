@@ -41,5 +41,8 @@ The following events use %amount:
 
 ** Technically my script also adds a 'type' to each of these, but currently aside from parsing the data there is no use case for this.
 
-
-
+### TODO LIST
+- [] I would like to add the output file as an optional HTML file, this would allow for some custom divs and behaviors using OBS Browser source
+- [] event messages could be included within the templates
+- [] Currently the event-checks listed in the config does nothing. event checks are hardcoded. Creating a more customizable setup would be awesome.
+- [] Additional functionality of other APIs, youtube, twitch, streamlabs, pally.gg (when they have a public endpoint accessable)
