@@ -1,0 +1,31 @@
+{
+    "EventChecker": {
+        "channel-name": "CodeNameTribbs",
+        "uri": "https://api.streamelements.com/kappa/v2/sessions/",
+        "jwt-token": "<your stream elements jwt token goes here>",
+        "channel-id": "<your channel id goes here",
+        "label-file": "events_ticker_label.txt",
+        "messages": {
+            "follow": "%name followed.",
+            "subscribe": "%name subscribed.",
+            "host": "%name hosted with %amount.",
+            "cheer": "%name cheered %amount bits.",
+            "tip": "%name tipped %amount.",
+            "merch": "%name somehow found merch!?",
+            "raid": "%name brought %amount raiders.",
+            "superchat": "%name with the superchat!",
+            "charity": "%name gave %amount to a good cause!"
+        },
+        "message-spacer": " | ",
+        "check-every-seconds": 2,
+        "event-limit": 10,
+        "event-checks": [
+            "follower-recent",
+            "subscriber-recent",
+            "host-recent",
+            "cheer-recent",
+            "tip-recent",
+            "merch-recent"
+        ]
+    }
+}
